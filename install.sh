@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Updating Repositories"
 echo ""
 echo ""
@@ -31,6 +32,7 @@ cp /usr/share/tor2web/data/conf/tor2web-default.conf ./config.conf
 echo "Now follow next.MD to configure Tor2Web"
 
 # Wait for user input
-read -s -r -p "Press enter to continue..."
+read -p "Press enter after you have configured and saved the config file. READ NEXT.MD FIRST!"
+
 
 cp ./config.conf /etc/tor2web.conf
