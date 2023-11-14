@@ -36,3 +36,5 @@ read -p "Press enter after you have configured and saved the config file. READ N
 
 
 cp ./config.conf /etc/tor2web.conf
+
+echo "Run start.sh to start Tor2Web"
